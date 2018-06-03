@@ -12,7 +12,6 @@ from keras.optimizers import Adam
 from keras.callbacks import EarlyStopping, ModelCheckpoint,ReduceLROnPlateau
 from gensim.models import word2vec
 import keras.backend.tensorflow_backend as K
-import tensorflow as tf
 import re
 from keras.layers.advanced_activations import LeakyReLU
 
